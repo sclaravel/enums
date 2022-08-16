@@ -1,6 +1,6 @@
 <?php
 
-namespace TysonLaravel\Enums\Traits;
+namespace TysonLaravel\Enums;
 
 use TysonLaravel\Enums\Exceptions\UndefinedCaseError;
 

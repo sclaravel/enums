@@ -1,6 +1,6 @@
 <?php
 
-namespace TysonLaravel\Enums\Traits;
+namespace TysonLaravel\Enums;
 
 trait Arrayable
 {
