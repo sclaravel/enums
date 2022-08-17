@@ -12,7 +12,7 @@ trait Options
     public static function options(): array
     {
         $cases = static::cases();
-        if (in_array('App\Enums\Traits\Translable', class_uses(self::class))) {
+        if (in_array('TysonLaravel\Enums\Translable', class_uses(self::class))) {
             $result = [];
 
             foreach ($cases as $item) {
