@@ -14,6 +14,6 @@ trait Translable
      */
     public function label(): string
     {
-        return trans('enum.' . Str::snake(class_basename(get_class())) . '.' . $this->name);
+        return trans('enum.' . Str::snake(class_basename(get_class($this))) . '.' . $this->name);
     }
 }
